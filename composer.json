@@ -7,27 +7,14 @@
         "laravel"
     ],
     "license": "MIT",
-    "repositories": [
-    	{
-    		"type": "path",
-    		"url": "/home/eklundkristoffer/packages/bitaac/bitfabric"
-    	},
-    	{
-    		"type": "path",
-    		"url": "/home/eklundkristoffer/packages/bitaac/theme-default"
-    	},
-    	{
-    		"type": "path",
-    		"url": "/home/eklundkristoffer/packages/bitaac/theme-admin"
-    	}
-    ],
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "bitaac/bitfabric": "@dev",
-        "bitaac/theme-admin": "@dev"
+        "bitaac/bitfabric": "dev-master",
+        "bitaac/theme-admin": "dev-master",
+        "bitaac/theme-default": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
