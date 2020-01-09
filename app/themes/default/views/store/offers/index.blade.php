@@ -12,7 +12,7 @@
                 @if(config('bitaac.store.gateways.paypal.enabled'))
                     <div class="col-md-4">
                         <a href="{{ route('store.gateway', 'paypal') }}">
-                            <img src="/bitaac/theme-default/images/paypal.png" width="170" height="51">
+                            <img src="/theme/images/paypal.png" width="170" height="51">
                         </a>
                     </div>
                 @endif

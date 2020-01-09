@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f430d56b6a690bd8a9247c1865cc4bcc",
+    "content-hash": "d4afbba44679fe29dc4d4528560303d2",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -139,43 +139,6 @@
                 }
             ],
             "time": "2018-12-07T15:44:54+00:00"
-        },
-        {
-            "name": "bitaac/theme-default",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bitaac/theme-default.git",
-                "reference": "78e169fa4b12cf58d40b74d6064cf3b5c9d103fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bitaac/theme-default/zipball/78e169fa4b12cf58d40b74d6064cf3b5c9d103fe",
-                "reference": "78e169fa4b12cf58d40b74d6064cf3b5c9d103fe",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Bitaac\\ThemeDefault\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kristoffer Eklund",
-                    "email": "kristoffereklund1@gmail.com"
-                }
-            ],
-            "time": "2018-12-07T11:40:37+00:00"
         },
         {
             "name": "christian-riesen/base32",
@@ -5773,8 +5736,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "bitaac/bitfabric": 20,
-        "bitaac/theme-admin": 20,
-        "bitaac/theme-default": 20
+        "bitaac/theme-admin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
