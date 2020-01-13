@@ -45,4 +45,14 @@ return [
 
     'theme-admin' => Bitaac\ThemeAdmin\ThemeAdminServiceProvider::class,
 
+    /*
+    |--------------------------------------------------------------------------
+    | Custom service providers to be registered
+    |--------------------------------------------------------------------------
+    |
+    |
+    */
+
+    'providers' => [],
+
 ];

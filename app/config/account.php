@@ -1,7 +1,7 @@
 <?php
 
 return [
-    
+
     /*
     |--------------------------------------------------------------------------
     | Max characters per account
@@ -29,6 +29,8 @@ return [
     |--------------------------------------------------------------------------
     |
     | Time in seconds when the actual character deletion will take place.
+    |
+    | Default: 1 * 60 * 60 = 1 hour
     |
     */
 
